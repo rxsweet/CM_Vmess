@@ -5,7 +5,6 @@ let mytoken= ['rx'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
 	'rx.cf.090227.xyz#===下面是自己添加===',
 	'cf.090227.xyz#三网自适应分流官方优选',
@@ -56,7 +55,6 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'icook.tw#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
 	'rx.cf.090227.xyz#===下面是自己添加===',
 	'cf.090227.xyz#三网自适应分流官方优选',
