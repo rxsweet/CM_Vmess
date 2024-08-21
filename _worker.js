@@ -1,17 +1,56 @@
 
 // 部署完成后在网址后面加上这个，获取订阅器默认节点，/auto
 
-let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
+let mytoken= ['rx'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
+	'rx.cf.090227.xyz#===下面是自己添加===',
+	'cf.090227.xyz#三网自适应分流官方优选',
+	'ct.090227.xyz#电信官方优选',
+	'cmcc.090227.xyz#移动官方优选',
+	'shopify.com',
+	'time.is',
+	'icook.hk',
+	'icook.tw',
+	'ip.sb',
+	'japan.com',
+	'malaysia.com',
+	'russia.com',
+	'singapore.com',
+	'skk.moe',
+	'www.visa.com.sg',
+	'www.visa.com.hk',
+	'www.visa.com.tw',
+	'www.visa.co.jp',
+	'www.visakorea.com',
+	'www.gco.gov.qa',
+	'www.gov.se',
+	'www.gov.ua#下一行开始：第三方维护的优选官方域名（未备注出处的为未知）',
+	'cfip.xxxxxxxx.tk#OTC提供维护官方优选',
+	'bestcf.onecf.eu.org#Mingyu提供维护官方优选',
+	'cf.zhetengsha.eu.org#小一提供维护官方优选',
+	'acjp2.cloudflarest.link#KJKKK维护官方优选',
+	'achk.cloudflarest.link#KJKKK维护官方优选',
+	'xn--b6gac.eu.org',
+	'yx.887141.xyz',
+	'8.889288.xyz',
+	'cfip.1323123.xyz',
+	'cf.515188.xyz',
+	'cf-st.annoy.eu.org',
+	'cf.0sm.com',
+	'cf.877771.xyz',
+	'cf.345673.xyz',
+	'bestproxy.onecf.eu.org#Mingyu提供维护反代优选',
+	'proxy.xxxxxxxx.tk#OTC提供维护反代优选',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/addressesapi.txt',//自用ip地址
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
@@ -24,7 +63,8 @@ let addressesnotls = [
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt',
+	'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/addressesapi.txt',//自用ip地址
+	//'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt',
 ];
 
 let DLS = 8;//速度下限
