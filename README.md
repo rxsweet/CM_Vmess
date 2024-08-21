@@ -1,4 +1,17 @@
-# 优选订阅生成器 WorkerVless2sub   应该是通用的
+# 自己使用，下面是自己修改的地方
+```
+1.mytoken= ['rx']   原来是auto
+2.let addresses = 自己添加了优选域名
+3.let addressesnotls =  自己添加了优选域名，同上
+4.let addressesapi = 改成了自己仓库里的ip文件
+5.let addressesnotlsapi = 改成了自己仓库里的ip文件,同上
+6.let subconfig =  改成了自己的订阅配置文件，简单文件小
+7.let vmessLinksURL = 改成了自己仓库里的地址（主要是修改了UUID）
+8.let FileName = 改成了自己使用的名字
+```
+
+
+# 优选订阅生成器 WorkerVless2sub   
 
 ### 这个是一个通过 Cloudflare Workers 搭建，自动生成优选线路 VLESS 节点订阅内容生成器 [[实现原理]](https://www.youtube.com/watch?v=p-KhFJAC4WQ&t=70s)
 
