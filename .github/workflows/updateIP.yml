@@ -37,4 +37,7 @@ jobs:
           git add ./addressesapi111.txt
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') update IP done"
           git pull --rebase
-
+      - name: 推送更改
+        uses:  ad-m/github-push-action@master
+        with:
+          branch: main
