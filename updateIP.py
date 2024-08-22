@@ -9,7 +9,7 @@ ip_Api_links = [
     'https://ipdb.api.030101.xyz/?type=bestproxy&country=true'
     ]
 
-ip_file = 'addressesapi111.txt'
+ip_file = './addressesapi111.txt'
 
 def fetchIP(ip_Api_links):
     all_IP = []
