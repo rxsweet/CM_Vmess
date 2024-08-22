@@ -21,6 +21,7 @@ def fetchIP(ip_Api_links):
 
 def main():
     fetch_all_IP = fetchIP(ip_Api_links)
+    fetch_all_IP.join('\n')
     with open(ip_file, 'w') as f:
         f.write(fetch_all_IP)
 
