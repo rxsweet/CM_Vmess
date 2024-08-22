@@ -6,8 +6,9 @@
 4.let addressesapi = 改成了自己仓库里的ip文件
 5.let addressesnotlsapi = 改成了自己仓库里的ip文件,同上
 6.let subconfig =  改成了自己的订阅配置文件，简单文件小
-7.let vmessLinksURL = 改成了自己仓库里的地址（主要是修改了UUID）
-8.let FileName = 改成了自己使用的名字
+7.let FileName = 改成了自己使用的名字
+第8条改了就连不上了，现在不知道什么问题
+*8.let vmessLinksURL = 改成了自己仓库里的地址（主要是修改了UUID）
 ```
 
 
