@@ -3,10 +3,22 @@ import requests
 
 
 ip_Api_links = [
+    #Mingyu维护
     'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
+    'https://ipdb.api.030101.xyz/?type=bestproxy&country=true',
+    #CM维护
+    'https://addressesapi.090227.xyz/ct',
+    'https://addressesapi.090227.xyz/cmcc',
+    'https://addressesapi.090227.xyz/cmcc-ipv6',
+    #第三方维护
+    'https://stock.hostmonit.com/CloudFlareYes，https://ip.164746.xyz',
     'https://addressesapi.090227.xyz/CloudFlareYes',
     'https://addressesapi.090227.xyz/ip.164746.xyz',
-    'https://ipdb.api.030101.xyz/?type=bestproxy&country=true'
+    #OTC维护
+    'https://cn.xxxxxxxx.tk/',
+    'https://ct.xxxxxxxx.tk/',
+    'https://cm.xxxxxxxx.tk/',
+    'https://cu.xxxxxxxx.tk/
     ]
 
 ip_file = './addressesapi.txt'
