@@ -3,7 +3,7 @@ name: updateIP
 on:
   workflow_dispatch:
   schedule:
-   - cron: '0 20 * * *'
+   - cron: '0 20 1 * *'
   #实际时间：+ 8小时  = 4:00
   #这个实际天4：00执行
   #表达式生成  https://crontab.guru/
