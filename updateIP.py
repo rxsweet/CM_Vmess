@@ -18,7 +18,7 @@ ip_Api_links = [
     'https://cn.xxxxxxxx.tk/',
     'https://ct.xxxxxxxx.tk/',
     'https://cm.xxxxxxxx.tk/',
-    'https://cu.xxxxxxxx.tk/
+    'https://cu.xxxxxxxx.tk/'
     ]
 
 ip_file = './addressesapi.txt'
