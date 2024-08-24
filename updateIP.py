@@ -10,10 +10,10 @@ ip_Api_links = [
     'https://addressesapi.090227.xyz/ct',
     'https://addressesapi.090227.xyz/cmcc',
     'https://addressesapi.090227.xyz/cmcc-ipv6',
-    #第三方维护
-    'https://stock.hostmonit.com/CloudFlareYes，https://ip.164746.xyz',
     'https://addressesapi.090227.xyz/CloudFlareYes',
     'https://addressesapi.090227.xyz/ip.164746.xyz',
+    #第三方维护
+    #'https://stock.hostmonit.com/CloudFlareYes，https://ip.164746.xyz',
     #OTC维护
     'https://cn.xxxxxxxx.tk/',
     'https://ct.xxxxxxxx.tk/',
