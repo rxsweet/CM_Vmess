@@ -9,7 +9,6 @@ ip_Api_links = [
     #CM维护
     'https://addressesapi.090227.xyz/ct',
     'https://addressesapi.090227.xyz/cmcc',
-    'https://addressesapi.090227.xyz/cmcc-ipv6',
     'https://addressesapi.090227.xyz/CloudFlareYes',
     'https://addressesapi.090227.xyz/ip.164746.xyz',
     #第三方维护
