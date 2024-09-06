@@ -319,10 +319,11 @@ export default {
 			const ipv4Pattern = /^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
 
 			cc = '未知';
-			let ipapiurl = `http://ip-api.com/json/${obj.host}?lang=zh-CN`;
-
+			//let ipapiurl = `http://ip-api.com/json/${obj.host}?lang=zh-CN`;
+			let ipapiurl = `https://ipapi.co/${obj.host}/json`;
+			
 			// 根据 obj.ps 是否符合 IPv4 判断调用哪个 API
-			if (ipv4Pattern.test(obj.ps)) ipapiurl = `http://ip-api.com/json/${obj.ps}?lang=zh-CN`;
+			if (ipv4Pattern.test(obj.ps)) ipapiurl = `https://ipapi.co/${obj.ps}/json`; //http://ip-api.com/json/${obj.ps}?lang=zh-CN
 
 			// 发起请求
 			const response = await fetch(ipapiurl);
