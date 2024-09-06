@@ -319,18 +319,16 @@ export default {
 			const ipv4Pattern = /^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
 
 			cc = '未知';
-			//let ipapiurl = `http://ip-api.com/json/${obj.host}?lang=zh-CN`;
-			let ipapiurl = `https://ipapi.co/${obj.host}/json`;
+			let ipapiurl = `http://ip-api.com/json/${obj.host}?lang=zh-CN`;
 			
 			// 根据 obj.ps 是否符合 IPv4 判断调用哪个 API
-			//暂时先关掉这个选择
-			//if (ipv4Pattern.test(obj.ps)) ipapiurl = `https://ipapi.co/${obj.ps}/json`; //http://ip-api.com/json/${obj.ps}?lang=zh-CN
+			if (ipv4Pattern.test(obj.ps)) ipapiurl = `https://ipapi.co/${obj.ps}/json`; //http://ip-api.com/json/${obj.ps}?lang=zh-CN
 
 			// 发起请求
 			const response = await fetch(ipapiurl);
 			if(response.status == 200) {
 				const ipInfo = await response.json();
-				cc = obj.ps + ipInfo.country + " " + ipInfo.city;
+				cc = ipInfo.country + " " + ipInfo.city;
 			}
 
 			if (proxyhostsURL) {
@@ -394,7 +392,7 @@ export default {
 				const response = await fetch(ipapiurl);
 				if(response.status == 200) {
 					const ipInfo = await response.json();
-					cc = obj.ps + ipInfo.country + " " + ipInfo.city;
+					cc = ipInfo.country + " " + ipInfo.city;
 				}
 			}
 			
@@ -484,10 +482,10 @@ export default {
 						port = match[2] || port;
 						addressid = match[3] || address;
 					}
-				
+//删掉了 IP 显示 "ps": "${addressid}>${cc}",				
 					const vmess = `{
 "v": "2",
-"ps": "${addressid}>${cc}",
+"ps": "${addressid}>",
 "add": "${address}",
 "port": "${port}",
 "id": "${uuid}",
@@ -548,10 +546,10 @@ export default {
 					port = match[2] || port;
 					addressid = match[3] || address;
 				}
-			
+//删掉了 IP 显示 "ps": "${addressid}>${cc}",
 				const vmess = `{
 "v": "2",
-"ps": "${addressid}>${cc}",
+"ps": "${addressid}",
 "add": "${address}",
 "port": "${port}",
 "id": "${uuid}",
