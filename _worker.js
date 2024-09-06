@@ -323,13 +323,14 @@ export default {
 			let ipapiurl = `https://ipapi.co/${obj.host}/json`;
 			
 			// 根据 obj.ps 是否符合 IPv4 判断调用哪个 API
-			if (ipv4Pattern.test(obj.ps)) ipapiurl = `https://ipapi.co/${obj.ps}/json`; //http://ip-api.com/json/${obj.ps}?lang=zh-CN
+			//暂时先关掉这个选择
+			//if (ipv4Pattern.test(obj.ps)) ipapiurl = `https://ipapi.co/${obj.ps}/json`; //http://ip-api.com/json/${obj.ps}?lang=zh-CN
 
 			// 发起请求
 			const response = await fetch(ipapiurl);
 			if(response.status == 200) {
 				const ipInfo = await response.json();
-				cc = ipInfo.country + " " + ipInfo.city;
+				cc = obj.ps + ipInfo.country + " " + ipInfo.city;
 			}
 
 			if (proxyhostsURL) {
@@ -393,7 +394,7 @@ export default {
 				const response = await fetch(ipapiurl);
 				if(response.status == 200) {
 					const ipInfo = await response.json();
-					cc = ipInfo.country + " " + ipInfo.city;
+					cc = obj.ps + ipInfo.country + " " + ipInfo.city;
 				}
 			}
 			
