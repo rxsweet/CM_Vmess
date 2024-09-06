@@ -386,7 +386,8 @@ export default {
 			}
 
 			if (cc == '未知'){
-				let ipapiurl = `http://ip-api.com/json/${sni}?lang=zh-CN`;
+				let ipapiurl = `https://ipapi.co/${sni}/json`;
+				//let ipapiurl = `http://ip-api.com/json/${sni}?lang=zh-CN`;
 				// 发起请求
 				const response = await fetch(ipapiurl);
 				if(response.status == 200) {
