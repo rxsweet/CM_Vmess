@@ -4,7 +4,7 @@ let mytoken= ['rx'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'cloudflare.cfgo.cc#域名',
+	'rxrx.cf.090227.xyz#自改域名',
 ];
 
 // 设置优选地址api接口
