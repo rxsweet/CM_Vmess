@@ -33,7 +33,7 @@ let addressescsv = [
 ];
 
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://raw.githubusercontent.com/rxsweet/all/main/githubTools/cfClash.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/rxsweet/all/main/githubTools/cfClashConfig.ini"; //订阅配置文件
 //let subconfig = https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //原订阅配置文件
 let noTLS = 'true'; // false
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
