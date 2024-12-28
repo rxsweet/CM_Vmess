@@ -1,3 +1,7 @@
+# js混淆加密
+ - https://obfuscator.io/#code
+ - https://www.lddgo.net/encrypt/js
+ - https://toolonline.net/js-obfuscator
 # 自己使用，下面是自己修改的地方
 ```
 1.mytoken= ['rx']   原来是auto
