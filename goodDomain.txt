@@ -29,3 +29,13 @@ www.ipchicken.com#域名
 www.iplocation.net#域名
 www.visa.com.sg#域名
 www.whoer.net#域名
+arvind.ns.cloudflare.com#域名
+damien.ns.cloudflare.com#域名
+duke.ns.cloudflare.com#域名
+ignacio.ns.cloudflare.com#域名
+kip.ns.cloudflare.com#域名
+lynn.ns.cloudflare.com#域名
+pranab.ns.cloudflare.com#域名
+sage.ns.cloudflare.com#域名
+thaddeus.ns.cloudflare.com#域名
+theo.ns.cloudflare.com#域名
