@@ -14,10 +14,10 @@ ip_Api_links = [
     #第三方维护
     #'https://stock.hostmonit.com/CloudFlareYes，https://ip.164746.xyz',
     #OTC维护
-    'https://cn.xxxxxxxx.tk/',
-    'https://ct.xxxxxxxx.tk/',
-    'https://cm.xxxxxxxx.tk/',
-    'https://cu.xxxxxxxx.tk/'
+    #'https://cn.xxxxxxxx.tk/',
+    #'https://ct.xxxxxxxx.tk/',
+    #'https://cm.xxxxxxxx.tk/',
+    #'https://cu.xxxxxxxx.tk/'
     ]
 
 ip_file = './addressesapi.txt'
