@@ -10,7 +10,7 @@ let addresses = [
 // 设置优选地址api接口
 let addressesapi = [
 	'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/goodDomain.txt',//自用域名
-	'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/addressesapi_自用扫描.txt',//自用扫描IP
+	'https://raw.githubusercontent.com/rxsweet/cfip/main/ip/ALLIP.txt',//自用扫描IP
 	'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/addressesapi.txt',//自用更新ip
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
@@ -33,7 +33,7 @@ let addressescsv = [
 ];
 
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://raw.githubusercontent.com/rxsweet/all/main/githubTools/cfClashConfig.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/rxsweet/all/main/githubTools/cfClashConfig_cn.ini"; //订阅配置文件
 //let subconfig = https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //原订阅配置文件
 let noTLS = 'true'; // false
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
