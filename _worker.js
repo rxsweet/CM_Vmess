@@ -9,7 +9,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/rxsweet/cfip/main/ip/checked/ALLIP.txt',//自用扫描IP
+	'https://raw.githubusercontent.com/rxsweet/cfip/main/ipALL.txt',//自用扫描IP
 	//'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/goodDomain.txt',//自用域名
 	//'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/addressesapi.txt',//自用更新ip
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
