@@ -26,7 +26,6 @@ let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/rxsweet/CM_Vmess/main/addressesapi.txt',//自用ip地址
 	//'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt',
 ];
-
 let DLS = 8;//速度下限
 let addressescsv = [
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
