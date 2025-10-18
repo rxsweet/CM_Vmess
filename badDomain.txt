@@ -22,7 +22,6 @@ workers.cloudflare.cyou#域名
 www.d-555.com#自用域名
 www.ipget.net#域名
 www.sean-now.com#自用域名
-www.visa.com.hk#域名
 115155.xyz#15min_网络收集域名
 8.889288.xyz#cmliussss域名
 shopify.com#域名
