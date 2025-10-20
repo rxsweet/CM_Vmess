@@ -27,9 +27,9 @@ jobs:
 
       - name: Prepare files for obfuscation
         run: |
-          if grep -q "Obfuscate-cmliu" _worker.js_src; then
+          if grep -q "Obfuscate-rx" _worker.js_src; then
             echo "检测到 Obfuscate 准备分段处理"
-            line_number=$(awk '/Obfuscate-cmliu/ {print NR; exit}' _worker.js_src)
+            line_number=$(awk '/Obfuscate-rx/ {print NR; exit}' _worker.js_src)
             echo "Obfuscate 分段处理行号为: $line_number"
             head -n $line_number _worker.js_src > src.js
             tail -n +$((line_number + 1)) _worker.js_src > obf.js
