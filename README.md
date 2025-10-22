@@ -19,5 +19,5 @@
 
 ```
 ```
-使用自己仓库的byjoey加密_worker.js，直接可用，直接从hello,world模板粘贴代码就行
+使用自己CM_Trojan仓库的byjoey加密_worker.js，直接可用，直接从hello,world模板粘贴代码就行
 ```
